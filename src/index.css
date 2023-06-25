@@ -38,7 +38,7 @@ nav {
 }
 
 .nav__brand h1 {
-  color: var(--clr-blue);
+  color: var(--clr-black);
   font-size: clamp(1.75em, 4vw, 2.5em);
   font-weight: 800;
 }
@@ -48,7 +48,7 @@ nav {
   height: 50px;
   margin: 0 auto;
 
-  background-color: var(--clr-blue);
+  background-color: var(--clr-black);
   color: var(--clr-white);
 
   border: none;
@@ -99,7 +99,7 @@ form input[type="text"] {
 }
 
 form input[type="submit"] {
-  background-color: var(--clr-blue);
+  background-color: var(--clr-black);
   color: var(--clr-white);
 
   width: 250px;
@@ -131,18 +131,18 @@ form input[type="submit"]:hover {
   align-items: center;
 
   max-width: 90%;
-  width: 512px;
-  height: 512px;
+  width: 450px;
+  height: 450px;
   margin: 0 25px;
-  border: 3px solid var(--clr-blue);
+  border: 3px solid var(--clr-black);
   border-radius: 4px;
 
   overflow: hidden;
 }
 
 .image img {
-  width: 512px;
-  height: 512px;
+  width: 450px;
+  height: 450px;
   border-radius: 6px;
 }
 
