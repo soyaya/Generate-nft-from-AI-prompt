@@ -1,6 +1,16 @@
-require("@nomicfoundation/hardhat-toolbox");
+require('@nomiclabs/hardhat-ethers');
+require('dotenv').config();
 
-/** @type import('hardhat/config').HardhatUserConfig */
+
+
 module.exports = {
-  solidity: "0.8.17",
+  networks: {
+    goerli: {
+      url: 'https://eth-goerli.g.alchemy.com/v2/0Hh92ZeKBOAs8L8mJhat4cTZEWNUZUgf',
+      chainId: 5,
+      accounts: ['0af51be5b479c160caebd52746699bf24b8a734f7f75f85a1430bd405596bb3d'],
+      allowUnlimitedContractSize: true,
+    },
+  },
+  solidity: '0.8.17',
 };
